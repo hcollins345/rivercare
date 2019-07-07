@@ -54,12 +54,12 @@ GexfJS.setParams({
         /*
             Alphabetically sort node attributes
          */
-    showId : true,
+    showId : false,
         /*
             Show the id of the node in the list
             this setting can't be changed from the User Interface
         */
-    showEdgeArrow : true,
+    showEdgeArrow : false,
         /*
             Show the edge arrows when the edge is directed
             this setting can't be changed from the User Interface
