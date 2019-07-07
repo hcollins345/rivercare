@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-06-11">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="names" title="names" type="string"></attribute>
+      <attribute id="status" title="status" type="string"></attribute>
+      <attribute id="name (eng.)" title="name (eng.)" type="string"></attribute>
+      <attribute id="group" title="group" type="string"></attribute>
+      <attribute id="names (codes)" title="names (codes)" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="1" label="Agr1">
+        <attvalues>
+          <attvalue for="names" value="Agrarisch Natuurvereniging Lingestreek (ANVL)"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Asscoiation of agriculture and nature management: 'Lingestreek'"></attvalue>
+          <attvalue for="group" value="Agriculture"></attvalue>
+          <attvalue for="names (codes)" value="Agr1"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="650.33185" y="-311.01773"></viz:position>
+        <viz:color r="168" g="101" b="0"></viz:color>
+      </node>
+      <node id="2" label="Res1">
+        <attvalues>
+          <attvalue for="names" value="Alterra"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Alterra research Institute"></attvalue>
+          <attvalue for="group" value="Research"></attvalue>
+          <attvalue for="names (codes)" value="Res1"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-123.75039" y="867.67865"></viz:position>
+        <viz:color r="255" g="61" b="84"></viz:color>
+      </node>
+      <node id="3" label="Agr2">
+        <attvalues>
+          <attvalue for="names" value="Boomkwekersvereniging &quot;Opheusden en Omgeving&quot;"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Association of three farmers: &quot;Opheusden en Omgeving&quot;"></attvalue>
+          <attvalue for="group" value="Agriculture"></attvalue>
+          <attvalue for="names (codes)" value="Agr2"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="726.45294" y="-189.26514"></viz:position>
+        <viz:color r="168" g="101" b="0"></viz:color>
+      </node>
+      <node id="4" label="Res2">
+        <attvalues>
+          <attvalue for="names" value="Bosschap, bedrijfschap voor bos en natuur (O+bn)"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Federation for forest and nature (O + bn)"></attvalue>
+          <attvalue for="group" value="Research"></attvalue>
+          <attvalue for="names (codes)" value="Res2"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-375.1844" y="802.3559"></viz:position>
+        <viz:color r="255" g="61" b="84"></viz:color>
+      </node>
+      <node id="5" label="Int1">
+        <attvalues>
+          <attvalue for="names" value="Cascade, vereniging van zand- en grindproducenten"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Cascade, association of sand and gravel industries"></attvalue>
+          <attvalue for="group" value="Interest group"></attvalue>
+          <attvalue for="names (codes)" value="Int1"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="338.56146" y="1002.4024"></viz:position>
+        <viz:color r="196" g="51" b="255"></viz:color>
+      </node>
+      <node id="6" label="Int2">
+        <attvalues>
+          <attvalue for="names" value="Dekker groep"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Dekker group"></attvalue>
+          <attvalue for="group" value="Interest group"></attvalue>
+          <attvalue for="names (codes)" value="Int2"></attvalue>
+        </attvalues>
+        <viz:size value="36.666664"></viz:size>
+        <viz:position x="349.36026" y="846.65247"></viz:position>
+        <viz:color r="196" g="51" b="255"></viz:color>
+      </node>
+      <node id="7" label="Fld1">
+        <attvalues>
+          <attvalue for="names" value="Deltaprogramma: Rivieren"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="name (eng.)" value="Delta Programme - Rivers"></attvalue>
+          <attvalue for="group" value="Flood protection"></attvalue>
+          <attvalue for="names (codes)" value="Fld1"></attvalue>
+        </attvalues>
+        <viz:size value="30.0"></viz:size>
+        <viz:position x="-177.70224" y="320.98907"></viz:position>
+        <viz:color r="90" g="41" b="255"></viz:color>
+      </node>
+      <node id="8" label="Res3">
+        <attvalues>
+          <attvalue for="names" value="Deltares"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Deltares"></attvalue>
+          <attvalue for="group" value="Research"></attvalue>
+          <attvalue for="names (codes)" value="Res3"></attvalue>
+        </attvalues>
+        <viz:size value="16.666666"></viz:size>
+        <viz:position x="-262.62546" y="744.6918"></viz:position>
+        <viz:color r="255" g="61" b="84"></viz:color>
+      </node>
+      <node id="9" label="Crd1">
+        <attvalues>
+          <attvalue for="names" value="Dienst Landelijk gebied"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="name (eng.)" value="Government Service for Land and Water Management"></attvalue>
+          <attvalue for="group" value="Coordinators"></attvalue>
+          <attvalue for="names (codes)" value="Crd1"></attvalue>
+        </attvalues>
+        <viz:size value="130.0"></viz:size>
+        <viz:position x="70.3025" y="-26.305054"></viz:position>
+        <viz:color r="0" g="16" b="56"></viz:color>
+      </node>
+      <node id="10" label="Int3">
+        <attvalues>
+          <attvalue for="names" value="Federatie van Oppervlaktedelfstoffenwinnende Industrieën (FODI)"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Federation for sand, gravel, clay and limestone mining industries"></attvalue>
+          <attvalue for="group" value="Interest group"></attvalue>
+          <attvalue for="names (codes)" value="Int3"></attvalue>
+        </attvalues>
+        <viz:size value="23.333332"></viz:size>
+        <viz:position x="594.31506" y="874.5671"></viz:position>
+        <viz:color r="196" g="51" b="255"></viz:color>
+      </node>
+      <node id="11" label="Nat1">
+        <attvalues>
+          <attvalue for="names" value="FREE (Foundation for Restoring European Ecosystems) Nature"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="FREE (Foundation for Restoring European Ecosystems)"></attvalue>
+          <attvalue for="group" value="Nature"></attvalue>
+          <attvalue for="names (codes)" value="Nat1"></attvalue>
+        </attvalues>
+        <viz:size value="30.0"></viz:size>
+        <viz:position x="377.30734" y="573.8519"></viz:position>
+        <viz:color r="94" g="214" b="0"></viz:color>
+      </node>
+      <node id="12" label="Nat2">
+        <attvalues>
+          <attvalue for="names" value="Geldersch Landschap en Kasteelen"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Foundation of Gelderse landscapes and castles"></attvalue>
+          <attvalue for="group" value="Nature"></attvalue>
+          <attvalue for="names (codes)" value="Nat2"></attvalue>
+        </attvalues>
+        <viz:size value="16.666666"></viz:size>
+        <viz:position x="478.6024" y="556.3973"></viz:position>
+        <viz:color r="94" g="214" b="0"></viz:color>
+      </node>
+      <node id="13" label="Nat3">
+        <attvalues>
+          <attvalue for="names" value="Gelderse Natuur en Milieufederatie"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Federation for nature and environment of Gelderland"></attvalue>
+          <attvalue for="group" value="Nature"></attvalue>
+          <attvalue for="names (codes)" value="Nat3"></attvalue>
+        </attvalues>
+        <viz:size value="30.0"></viz:size>
+        <viz:position x="516.55774" y="468.4886"></viz:position>
+        <viz:color r="94" g="214" b="0"></viz:color>
+      </node>
+      <node id="14" label="Crd2">
+        <attvalues>
+          <attvalue for="names" value="Gemeente Beuningen"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="name (eng.)" value="Municipality of Beuningen"></attvalue>
+          <attvalue for="group" value="Coordinators"></attvalue>
+          <attvalue for="names (codes)" value="Crd2"></attvalue>
+        </attvalues>
+        <viz:size value="23.333332"></viz:size>
+        <viz:position x="188.80612" y="115.45187"></viz:position>
+        <viz:color r="0" g="16" b="56"></viz:color>
+      </node>
+      <node id="15" label="Crd3">
+        <attvalues>
+          <attvalue for="names" value="Gemeente Lingewaard"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="name (eng.)" value="Municipality of Lingewaard"></attvalue>
+          <attvalue for="group" value="Coordinators"></attvalue>
+          <attvalue for="names (codes)" value="Crd3"></attvalue>
+        </attvalues>
+        <viz:size value="16.666666"></viz:size>
+        <viz:position x="113.35537" y="146.86067"></viz:position>
+        <viz:color r="0" g="16" b="56"></viz:color>
+      </node>
+      <node id="16" label="Crd4">
+        <attvalues>
+          <attvalue for="names" value="Gemeente Nijmegen"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="name (eng.)" value="Municipality of Nijmegen"></attvalue>
+          <attvalue for="group" value="Coordinators"></attvalue>
+          <attvalue for="names (codes)" value="Crd4"></attvalue>
+        </attvalues>
+        <viz:size value="16.666666"></viz:size>
+        <viz:position x="-88.791" y="-73.39315"></viz:position>
+        <viz:color r="0" g="16" b="56"></viz:color>
+      </node>
+      <node id="17" label="Crd5">
+        <attvalues>
+          <attvalue for="names" value="Gemeente Rijnwaarden"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="name (eng.)" value="Municipality of Rijnwarden"></attvalue>
+          <attvalue for="group" value="Coordinators"></attvalue>
+          <attvalue for="names (codes)" value="Crd5"></attvalue>
+        </attvalues>
+        <viz:size value="16.666666"></viz:size>
+        <viz:position x="23.847614" y="-176.3641"></viz:position>
+        <viz:color r="0" g="16" b="56"></viz:color>
+      </node>
+      <node id="18" label="Crd6">
+        <attvalues>
+          <attvalue for="names" value="Gemeente Tiel"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="name (eng.)" value="Municipality of Tiel"></attvalue>
+          <attvalue for="group" value="Coordinators"></attvalue>
+          <attvalue for="names (codes)" value="Crd6"></attvalue>
+        </attvalues>
+        <viz:size value="16.666666"></viz:size>
+        <viz:position x="-52.1561" y="-144.23042"></viz:position>
+        <viz:color r="0" g="16" b="56"></viz:color>
+      </node>
+      <node id="19" label="Crd7">
+        <attvalues>
+          <attvalue for="names" value="Gemeente Zaltbommel"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="name (eng.)" value="Municipality of Zaltbommel"></attvalue>
+          <attvalue for="group" value="Coordinators"></attvalue>
+          <attvalue for="names (codes)" value="Crd7"></attvalue>
+        </attvalues>
+        <viz:size value="16.666666"></viz:size>
+        <viz:position x="246.86057" y="81.95532"></viz:position>
+        <viz:color r="0" g="16" b="56"></viz:color>
+      </node>
+      <node id="20" label="Int4">
+        <attvalues>
+          <attvalue for="names" value="Hengelsport Federatie Midden Nederland"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Federation for anglers"></attvalue>
+          <attvalue for="group" value="Interest group"></attvalue>
+          <attvalue for="names (codes)" value="Int4"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="443.96106" y="1018.6437"></viz:position>
+        <viz:color r="196" g="51" b="255"></viz:color>
+      </node>
+      <node id="21" label="Int5">
+        <attvalues>
+          <attvalue for="names" value="Hoogwaterplatform"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Citizen platform: water"></attvalue>
+          <attvalue for="group" value="Interest group"></attvalue>
+          <attvalue for="names (codes)" value="Int5"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="252.87277" y="964.28503"></viz:position>
+        <viz:color r="196" g="51" b="255"></viz:color>
+      </node>
+      <node id="22" label="Int6">
+        <attvalues>
+          <attvalue for="names" value="K3Delta"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="K3Delta"></attvalue>
+          <attvalue for="group" value="Interest group"></attvalue>
+          <attvalue for="names (codes)" value="Int6"></attvalue>
+        </attvalues>
+        <viz:size value="43.333332"></viz:size>
+        <viz:position x="478.80508" y="867.6525"></viz:position>
+        <viz:color r="196" g="51" b="255"></viz:color>
+      </node>
+      <node id="23" label="Nat4">
+        <attvalues>
+          <attvalue for="names" value="Ministerie van Economische zaken (landelijk)"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="name (eng.)" value="Ministry of economic affairs"></attvalue>
+          <attvalue for="group" value="Nature"></attvalue>
+          <attvalue for="names (codes)" value="Nat4"></attvalue>
+        </attvalues>
+        <viz:size value="23.333332"></viz:size>
+        <viz:position x="476.85114" y="261.45453"></viz:position>
+        <viz:color r="94" g="214" b="0"></viz:color>
+      </node>
+      <node id="24" label="Fld2">
+        <attvalues>
+          <attvalue for="names" value="Ministerie van Infrastructuur en Milieu (landelijk)"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="name (eng.)" value="Ministry of Infrastructure and the Environment"></attvalue>
+          <attvalue for="group" value="Flood protection"></attvalue>
+          <attvalue for="names (codes)" value="Fld2"></attvalue>
+        </attvalues>
+        <viz:size value="16.666666"></viz:size>
+        <viz:position x="-301.18942" y="236.5344"></viz:position>
+        <viz:color r="90" g="41" b="255"></viz:color>
+      </node>
+      <node id="25" label="Nat5">
+        <attvalues>
+          <attvalue for="names" value="Natuurmonumenten"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Natuurmonumenten"></attvalue>
+          <attvalue for="group" value="Nature"></attvalue>
+          <attvalue for="names (codes)" value="Nat5"></attvalue>
+        </attvalues>
+        <viz:size value="16.666666"></viz:size>
+        <viz:position x="622.5538" y="116.53828"></viz:position>
+        <viz:color r="94" g="214" b="0"></viz:color>
+      </node>
+      <node id="26" label="Nat6">
+        <attvalues>
+          <attvalue for="names" value="Provincie Gelderland: programma WaalWeelde"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="name (eng.)" value="Province of Gelderland"></attvalue>
+          <attvalue for="group" value="Nature"></attvalue>
+          <attvalue for="names (codes)" value="Nat6"></attvalue>
+        </attvalues>
+        <viz:size value="30.0"></viz:size>
+        <viz:position x="313.5353" y="386.2343"></viz:position>
+        <viz:color r="94" g="214" b="0"></viz:color>
+      </node>
+      <node id="27" label="Res4">
+        <attvalues>
+          <attvalue for="names" value="Radboud Universiteit Nijmegen (RU)"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Radbound University of Nijmegen"></attvalue>
+          <attvalue for="group" value="Research"></attvalue>
+          <attvalue for="names (codes)" value="Res4"></attvalue>
+        </attvalues>
+        <viz:size value="16.666666"></viz:size>
+        <viz:position x="-171.2249" y="769.5897"></viz:position>
+        <viz:color r="255" g="61" b="84"></viz:color>
+      </node>
+      <node id="28" label="Fld3">
+        <attvalues>
+          <attvalue for="names" value="Rijkskwaterstaat: Oost-Nederland"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Directorate for Public Works and Water Management: East"></attvalue>
+          <attvalue for="group" value="Flood protection"></attvalue>
+          <attvalue for="names (codes)" value="Fld3"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-189.08627" y="457.66748"></viz:position>
+        <viz:color r="90" g="41" b="255"></viz:color>
+      </node>
+      <node id="29" label="Fld4">
+        <attvalues>
+          <attvalue for="names" value="Rijkswaterstaat: Oost-Nederland: District zuid"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="name (eng.)" value="Directorate for Public Works and Water Management: East: district south"></attvalue>
+          <attvalue for="group" value="Flood protection"></attvalue>
+          <attvalue for="names (codes)" value="Fld4"></attvalue>
+        </attvalues>
+        <viz:size value="16.666666"></viz:size>
+        <viz:position x="-332.94882" y="438.67596"></viz:position>
+        <viz:color r="90" g="41" b="255"></viz:color>
+      </node>
+      <node id="30" label="Int7">
+        <attvalues>
+          <attvalue for="names" value="Spiegelgroep WaalWeelde"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="name (eng.)" value="Citizen platform Waalweelde"></attvalue>
+          <attvalue for="group" value="Interest group"></attvalue>
+          <attvalue for="names (codes)" value="Int7"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="569.525" y="1000.9352"></viz:position>
+        <viz:color r="196" g="51" b="255"></viz:color>
+      </node>
+      <node id="31" label="Nat7">
+        <attvalues>
+          <attvalue for="names" value="Staatsbosbeheer: regio oost"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="State Forestry Service: region east"></attvalue>
+          <attvalue for="group" value="Nature"></attvalue>
+          <attvalue for="names (codes)" value="Nat7"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="417.37006" y="413.7527"></viz:position>
+        <viz:color r="94" g="214" b="0"></viz:color>
+      </node>
+      <node id="32" label="Nat8">
+        <attvalues>
+          <attvalue for="names" value="Staatsbosbeheer: regio oost: district rivierenland"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="State Forestry Service: region east: district river landscape"></attvalue>
+          <attvalue for="group" value="Nature"></attvalue>
+          <attvalue for="names (codes)" value="Nat8"></attvalue>
+        </attvalues>
+        <viz:size value="43.333332"></viz:size>
+        <viz:position x="587.9813" y="221.41948"></viz:position>
+        <viz:color r="94" g="214" b="0"></viz:color>
+      </node>
+      <node id="33" label="Nat9">
+        <attvalues>
+          <attvalue for="names" value="Stichting ARK Natuurontwikkeling"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="ARK Foundation"></attvalue>
+          <attvalue for="group" value="Nature"></attvalue>
+          <attvalue for="names (codes)" value="Nat9"></attvalue>
+        </attvalues>
+        <viz:size value="43.333332"></viz:size>
+        <viz:position x="813.2352" y="579.8442"></viz:position>
+        <viz:color r="94" g="214" b="0"></viz:color>
+      </node>
+      <node id="34" label="Nat10">
+        <attvalues>
+          <attvalue for="names" value="Stichting Lingewaard Natuurlijk"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Foundation Lingewaard Natuurlijk"></attvalue>
+          <attvalue for="group" value="Nature"></attvalue>
+          <attvalue for="names (codes)" value="Nat10"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="935.0754" y="582.63666"></viz:position>
+        <viz:color r="94" g="214" b="0"></viz:color>
+      </node>
+      <node id="35" label="Int8">
+        <attvalues>
+          <attvalue for="names" value="Stichting Symbiose"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Foundation Symbiose"></attvalue>
+          <attvalue for="group" value="Interest group"></attvalue>
+          <attvalue for="names (codes)" value="Int8"></attvalue>
+        </attvalues>
+        <viz:size value="23.333332"></viz:size>
+        <viz:position x="547.4865" y="758.14514"></viz:position>
+        <viz:color r="196" g="51" b="255"></viz:color>
+      </node>
+      <node id="36" label="Agr3">
+        <attvalues>
+          <attvalue for="names" value="Vereniging Samenwerking Rijnstrangen (VSR )"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Association Rijnstrangen"></attvalue>
+          <attvalue for="group" value="Agriculture"></attvalue>
+          <attvalue for="names (codes)" value="Agr3"></attvalue>
+        </attvalues>
+        <viz:size value="16.666666"></viz:size>
+        <viz:position x="612.0172" y="-240.29721"></viz:position>
+        <viz:color r="168" g="101" b="0"></viz:color>
+      </node>
+      <node id="37" label="Agr4">
+        <attvalues>
+          <attvalue for="names" value="Vereniging Streekbeheer Rijk Maas en Waal"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Association of agriculture and naturemanagement: Rijk Maas en Waal"></attvalue>
+          <attvalue for="group" value="Agriculture"></attvalue>
+          <attvalue for="names (codes)" value="Agr4"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="701.6537" y="-261.26724"></viz:position>
+        <viz:color r="168" g="101" b="0"></viz:color>
+      </node>
+      <node id="38" label="Agr5">
+        <attvalues>
+          <attvalue for="names" value="Vereniging voor Agrarisch Natuur en Landschapsbeheer (VANL): de Capreton"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Association of agriculture and naturemanagement: de Capreton"></attvalue>
+          <attvalue for="group" value="Agriculture"></attvalue>
+          <attvalue for="names (codes)" value="Agr5"></attvalue>
+        </attvalues>
+        <viz:size value="16.666666"></viz:size>
+        <viz:position x="656.05444" y="-189.5573"></viz:position>
+        <viz:color r="168" g="101" b="0"></viz:color>
+      </node>
+      <node id="39" label="Int9">
+        <attvalues>
+          <attvalue for="names" value="WaalWeelde West: de Verrekijkers (WWWest)"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="name (eng.)" value="Citizen platform: De Verrekijkers"></attvalue>
+          <attvalue for="group" value="Interest group"></attvalue>
+          <attvalue for="names (codes)" value="Int9"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="667.62" y="974.9443"></viz:position>
+        <viz:color r="196" g="51" b="255"></viz:color>
+      </node>
+      <node id="40" label="Res5">
+        <attvalues>
+          <attvalue for="names" value="Wageningen Universiteit &amp; Research Centre (WUR)"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="name (eng.)" value="Wageningen University of Research"></attvalue>
+          <attvalue for="group" value="Research"></attvalue>
+          <attvalue for="names (codes)" value="Res5"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-261.0341" y="867.5878"></viz:position>
+        <viz:color r="255" g="61" b="84"></viz:color>
+      </node>
+      <node id="41" label="Fld5">
+        <attvalues>
+          <attvalue for="names" value="Waterschap: Rijn en Ijsel"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Water Board: Rijn en Ijsel"></attvalue>
+          <attvalue for="group" value="Flood protection"></attvalue>
+          <attvalue for="names (codes)" value="Fld5"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-427.75137" y="362.05936"></viz:position>
+        <viz:color r="90" g="41" b="255"></viz:color>
+      </node>
+      <node id="42" label="Fld6">
+        <attvalues>
+          <attvalue for="names" value="Waterschap: Rivierenland"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="Water Board: Rivierenland"></attvalue>
+          <attvalue for="group" value="Flood protection"></attvalue>
+          <attvalue for="names (codes)" value="Fld6"></attvalue>
+        </attvalues>
+        <viz:size value="23.333332"></viz:size>
+        <viz:position x="-300.1552" y="342.40762"></viz:position>
+        <viz:color r="90" g="41" b="255"></viz:color>
+      </node>
+      <node id="43" label="Nat11">
+        <attvalues>
+          <attvalue for="names" value="Wereld Natuurfonds (WNF)"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="name (eng.)" value="World Wildlife Fund"></attvalue>
+          <attvalue for="group" value="Nature"></attvalue>
+          <attvalue for="names (codes)" value="Nat11"></attvalue>
+        </attvalues>
+        <viz:size value="23.333332"></viz:size>
+        <viz:position x="707.224" y="545.4125"></viz:position>
+        <viz:color r="94" g="214" b="0"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="1570" source="6" target="9" weight="2.0"></edge>
+      <edge id="1571" source="6" target="10" weight="2.0"></edge>
+      <edge id="1572" source="6" target="11" weight="2.0"></edge>
+      <edge id="1573" source="6" target="12" weight="2.0"></edge>
+      <edge id="1582" source="7" target="9"></edge>
+      <edge id="1583" source="7" target="28" weight="2.0"></edge>
+      <edge id="1585" source="7" target="42"></edge>
+      <edge id="1589" source="8" target="28" weight="2.0"></edge>
+      <edge id="1591" source="9" target="6" weight="2.0"></edge>
+      <edge id="1592" source="9" target="7"></edge>
+      <edge id="1596" source="9" target="11" weight="2.0"></edge>
+      <edge id="1597" source="9" target="14"></edge>
+      <edge id="1599" source="9" target="16" weight="2.0"></edge>
+      <edge id="1600" source="9" target="17"></edge>
+      <edge id="1601" source="9" target="18"></edge>
+      <edge id="1605" source="9" target="23"></edge>
+      <edge id="1607" source="9" target="25"></edge>
+      <edge id="1608" source="9" target="26"></edge>
+      <edge id="1609" source="9" target="27"></edge>
+      <edge id="1610" source="9" target="28"></edge>
+      <edge id="1613" source="9" target="31"></edge>
+      <edge id="1614" source="9" target="32"></edge>
+      <edge id="1615" source="9" target="33"></edge>
+      <edge id="1618" source="9" target="36"></edge>
+      <edge id="1620" source="9" target="38"></edge>
+      <edge id="1624" source="9" target="42"></edge>
+      <edge id="1627" source="10" target="6" weight="2.0"></edge>
+      <edge id="1630" source="10" target="22" weight="2.0"></edge>
+      <edge id="1632" source="11" target="6" weight="2.0"></edge>
+      <edge id="1633" source="11" target="9" weight="2.0"></edge>
+      <edge id="1636" source="11" target="32" weight="2.0"></edge>
+      <edge id="1638" source="12" target="6" weight="2.0"></edge>
+      <edge id="1651" source="13" target="31"></edge>
+      <edge id="1653" source="13" target="35" weight="2.0"></edge>
+      <edge id="1654" source="13" target="43"></edge>
+      <edge id="1655" source="14" target="9" weight="2.0"></edge>
+      <edge id="1659" source="14" target="33" weight="2.0"></edge>
+      <edge id="1660" source="15" target="22" weight="2.0"></edge>
+      <edge id="1661" source="16" target="9" weight="2.0"></edge>
+      <edge id="1662" source="17" target="9" weight="2.0"></edge>
+      <edge id="1664" source="18" target="9"></edge>
+      <edge id="1668" source="19" target="31" weight="2.0"></edge>
+      <edge id="1675" source="22" target="10"></edge>
+      <edge id="1676" source="22" target="15" weight="2.0"></edge>
+      <edge id="1684" source="22" target="31"></edge>
+      <edge id="1685" source="22" target="32"></edge>
+      <edge id="1686" source="22" target="33" weight="2.0"></edge>
+      <edge id="1691" source="23" target="9"></edge>
+      <edge id="1693" source="23" target="24"></edge>
+      <edge id="1694" source="24" target="23" weight="2.0"></edge>
+      <edge id="1695" source="25" target="9" weight="2.0"></edge>
+      <edge id="1697" source="26" target="9"></edge>
+      <edge id="1699" source="26" target="28" weight="2.0"></edge>
+      <edge id="1700" source="26" target="31" weight="2.0"></edge>
+      <edge id="1701" source="27" target="9" weight="2.0"></edge>
+      <edge id="1704" source="28" target="7"></edge>
+      <edge id="1705" source="28" target="8"></edge>
+      <edge id="1706" source="28" target="9" weight="2.0"></edge>
+      <edge id="1707" source="28" target="26" weight="2.0"></edge>
+      <edge id="1710" source="28" target="29"></edge>
+      <edge id="1711" source="28" target="31" weight="2.0"></edge>
+      <edge id="1713" source="29" target="28"></edge>
+      <edge id="1718" source="31" target="9"></edge>
+      <edge id="1720" source="31" target="13" weight="2.0"></edge>
+      <edge id="1722" source="31" target="19" weight="2.0"></edge>
+      <edge id="1723" source="31" target="22" weight="2.0"></edge>
+      <edge id="1725" source="31" target="26" weight="2.0"></edge>
+      <edge id="1726" source="31" target="28" weight="2.0"></edge>
+      <edge id="1731" source="32" target="9" weight="2.0"></edge>
+      <edge id="1732" source="32" target="11" weight="2.0"></edge>
+      <edge id="1740" source="32" target="22" weight="2.0"></edge>
+      <edge id="1747" source="32" target="33" weight="2.0"></edge>
+      <edge id="1748" source="32" target="35" weight="2.0"></edge>
+      <edge id="1752" source="33" target="9"></edge>
+      <edge id="1754" source="33" target="14" weight="2.0"></edge>
+      <edge id="1756" source="33" target="22" weight="2.0"></edge>
+      <edge id="1757" source="33" target="32"></edge>
+      <edge id="1759" source="33" target="43"></edge>
+      <edge id="1760" source="35" target="13"></edge>
+      <edge id="1765" source="35" target="32" weight="2.0"></edge>
+      <edge id="1767" source="36" target="9" weight="2.0"></edge>
+      <edge id="1770" source="38" target="9" weight="2.0"></edge>
+      <edge id="1775" source="42" target="7"></edge>
+      <edge id="1777" source="42" target="9" weight="2.0"></edge>
+      <edge id="1786" source="43" target="13" weight="2.0"></edge>
+      <edge id="1787" source="43" target="33" weight="2.0"></edge>
+    </edges>
+  </graph>
+</gexf>

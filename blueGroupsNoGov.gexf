@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-06-15">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="names" title="names" type="string"></attribute>
+      <attribute id="status" title="status" type="string"></attribute>
+      <attribute id="names (eng.)" title="names (eng.)" type="string"></attribute>
+      <attribute id="group" title="group" type="string"></attribute>
+      <attribute id="names (codes)" title="names (codes)" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="1" label="Agriculture">
+        <attvalues>
+          <attvalue for="names" value="Agrarisch Natuurvereniging Lingestreek (ANVL)"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="names (eng.)" value="Asscoiation of agriculture and nature management: 'Lingestreek'"></attvalue>
+          <attvalue for="group" value="Agriculture"></attvalue>
+          <attvalue for="names (codes)" value="Agr1"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="588.4122" y="-514.56946"></viz:position>
+        <viz:color r="143" g="116" b="0"></viz:color>
+      </node>
+      <node id="2" label="Coordinators">
+        <attvalues>
+          <attvalue for="names" value="Dienst Landelijk gebied"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="names (eng.)" value="Government Service for Land and Water Management"></attvalue>
+          <attvalue for="group" value="Coordinators"></attvalue>
+          <attvalue for="names (codes)" value="Crd1"></attvalue>
+        </attvalues>
+        <viz:size value="152.5"></viz:size>
+        <viz:position x="-38.58749" y="-490.07352"></viz:position>
+        <viz:color r="0" g="41" b="32"></viz:color>
+      </node>
+      <node id="3" label="Flood protection">
+        <attvalues>
+          <attvalue for="names" value="Deltaprogramma: Rivieren"></attvalue>
+          <attvalue for="status" value="gov"></attvalue>
+          <attvalue for="names (eng.)" value="Delta Programme - Rivers"></attvalue>
+          <attvalue for="group" value="Flood protection"></attvalue>
+          <attvalue for="names (codes)" value="Fld1"></attvalue>
+        </attvalues>
+        <viz:size value="200.0"></viz:size>
+        <viz:position x="-608.51227" y="166.60103"></viz:position>
+        <viz:color r="76" g="94" b="255"></viz:color>
+      </node>
+      <node id="4" label="Interest Groups">
+        <attvalues>
+          <attvalue for="names" value="Cascade, vereniging van zand- en grindproducenten"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="names (eng.)" value="Cascade, association of sand and gravel industries"></attvalue>
+          <attvalue for="group" value="Interest group"></attvalue>
+          <attvalue for="names (codes)" value="Int1"></attvalue>
+        </attvalues>
+        <viz:size value="200.0"></viz:size>
+        <viz:position x="534.38416" y="977.7875"></viz:position>
+        <viz:color r="198" g="134" b="233"></viz:color>
+      </node>
+      <node id="5" label="Nature">
+        <attvalues>
+          <attvalue for="names" value="FREE (Foundation for Restoring European Ecosystems) Nature"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="names (eng.)" value="FREE (Foundation for Restoring European Ecosystems)"></attvalue>
+          <attvalue for="group" value="Nature"></attvalue>
+          <attvalue for="names (codes)" value="Nat1"></attvalue>
+        </attvalues>
+        <viz:size value="200.0"></viz:size>
+        <viz:position x="694.1728" y="128.71295"></viz:position>
+        <viz:color r="87" g="255" b="66"></viz:color>
+      </node>
+      <node id="6" label="Research">
+        <attvalues>
+          <attvalue for="names" value="Alterra"></attvalue>
+          <attvalue for="status" value="non-gov"></attvalue>
+          <attvalue for="names (eng.)" value="Alterra research Institute"></attvalue>
+          <attvalue for="group" value="Research"></attvalue>
+          <attvalue for="names (codes)" value="Res1"></attvalue>
+        </attvalues>
+        <viz:size value="152.5"></viz:size>
+        <viz:position x="-356.9353" y="897.8111"></viz:position>
+        <viz:color r="255" g="112" b="146"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="238" source="4" target="5" weight="18.0"></edge>
+      <edge id="239" source="4" target="6" weight="8.0"></edge>
+      <edge id="242" source="3" target="6" weight="10.0"></edge>
+      <edge id="246" source="6" target="3" weight="2.0"></edge>
+      <edge id="247" source="6" target="4" weight="2.0"></edge>
+      <edge id="248" source="6" target="5" weight="6.0"></edge>
+      <edge id="253" source="4" target="3" weight="18.0"></edge>
+      <edge id="254" source="4" target="2" weight="6.0"></edge>
+      <edge id="257" source="5" target="4" weight="19.0"></edge>
+      <edge id="258" source="5" target="3" weight="20.0"></edge>
+      <edge id="265" source="5" target="2" weight="18.0"></edge>
+      <edge id="273" source="2" target="5" weight="5.0"></edge>
+      <edge id="277" source="2" target="4" weight="4.0"></edge>
+      <edge id="285" source="2" target="3" weight="2.0"></edge>
+      <edge id="308" source="3" target="4" weight="6.0"></edge>
+      <edge id="309" source="3" target="5" weight="10.0"></edge>
+      <edge id="333" source="5" target="6" weight="8.0"></edge>
+      <edge id="376" source="3" target="2" weight="4.0"></edge>
+    </edges>
+  </graph>
+</gexf>
