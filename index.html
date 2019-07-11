@@ -19,8 +19,23 @@
     </head>
     <body>
         <div id="zonecentre" class="gradient">
+
             <canvas id="carte" width="0" height="0"></canvas>
-            <ul id="ctlzoom">
+						<div class='my-legend'>
+								<div class='legend-title'>Organisations & Groups</div>
+								<div class='legend-scale'>
+										<ul class='legend-labels'>
+												<li><span style='background: rgba(255, 66, 112, 0.7);'></span>Research</li>
+												<li><span style='background: rgba(110, 235, 0, 0.7);'></span>Nature</li>
+												<li><span style='background: rgba(3, 0, 41, 0.7);'></span>Coordinators</li>
+												<li><span style='background: rgba(158, 82, 255, 0.7);'></span>Interest groups</li>
+												<li><span style='background: rgba(0, 125, 255, 0.7);'></span>Flood protection</li>
+												<li><span style='background: rgba(138, 99, 0, 0.7);'></span>Agriculture</li>
+										</ul>
+								</div>
+								<div class='legend-source' href="javascript:void(0)" onclick="openNav()">Visualisation: <a class='our-names' href='javascript:void(0)'>H.Collins & O.T.Bradley</a></div>
+						</div>
+			      <ul id="ctlzoom">
                 <li>
                     <a href="#" id="zoomPlusButton" title="S'approcher"> </a>
                 </li>
@@ -37,10 +52,10 @@
                     <a href="#" id="edgesButton"> </a>
                 </li>
             </ul>
-        </div>
-        <div id="overviewzone" class="gradient">
-            <canvas id="overview" width="0" height="0"></canvas>
-        </div>
+				</div>
+				<div id="overviewzone" class="gradient">
+						<canvas id="overview" width="0" height="0"></canvas>  
+        </div>	
         <div id="leftcolumn">
             <div id="unfold">
                 <a href="#" id="aUnfold" class="rightarrow"> </a>
@@ -58,5 +73,25 @@
         </div>
         <ul id="autocomplete">
         </ul>
+
+		<!-- OVERLAY -->
+				<div id="myNav" class="overlay">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<figure class="overlay-content">
+						<img class='overlay-picture' src='img/visualisors.jpg' alt='Harry and Oscar sitting on coach' />
+						<figcaption>Fig 1: Bradley and Collins  </figcaption>
+					</figure>
+				</div>
+
+				<script>
+				function openNav() {
+						document.getElementById("myNav").style.width = "100%";
+				}
+				function closeNav() {
+						document.getElementById("myNav").style.width = "0%";
+				}
+				</script>
+
+
     </body>
-</html>
+</html>"javascript:void(0)
