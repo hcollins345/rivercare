@@ -17,7 +17,7 @@ http://rivercare.herokuapp.com/index.html#visualisations/greenGroupsGov.gexf
 ### For adding and viewing graphs
 
 1. Export your graph from Gephi as a GEXF file
-2. Put it in the visualisations folder of the gexf-js directory
+2. Put it in the visualisations folder of the gexf-js directory and push to github
 3. You can view more Gexf files by pointing your browser to index.html#visualisations/Filename.gexf
     ie. http://rivercare.herokuapp.com/index.html#visualisations/blueNoGov.gexf
 
