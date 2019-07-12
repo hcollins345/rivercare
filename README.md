@@ -14,16 +14,18 @@ http://rivercare.herokuapp.com/index.html#visualisations/greenGroupsGov.gexf
 
 ## How to use ?
 
-### For adding and viewing graphs
+### For deploying graphs
 
 1. Export your graph from Gephi as a GEXF file
 2. Put it in the visualisations folder of the gexf-js directory and push to github
-3. You can view more Gexf files by pointing your browser to index.html#visualisations/Filename.gexf
+3. You can view the deployed Gexf files by pointing your browser to index.html#visualisations/Filename.gexf
     ie. http://rivercare.herokuapp.com/index.html#visualisations/blueNoGov.gexf
 
-### Released under MIT License
+### For testing
 
-### Known Issues with GEXF viewer
+See *Known Issues with GEXF viewer* below.
+
+## Known Issues with GEXF viewer
 
 **The issue below is the source of 90% of support emails I receive, please read carefully**
 
@@ -38,7 +40,7 @@ This is a known security limitation, and there are 2 known workarounds:
 
 There used to a third workaround (The --allow-file-access-from-files flag), but it is no longer available on newest Chrome versions since 2014.
 
-#### Compatibility
+### Compatibility
 
 Gexf-JS uses the canvas element, which might cause compatibility issues with older browsers.
 
