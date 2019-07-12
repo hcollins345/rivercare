@@ -30,6 +30,10 @@ GexfJS.setParams({
             Change this parameter for wider or narrower edges
             this setting can't be changed from the User Interface
         */
+    displayUnhighlightedText : false,
+        /*
+            Enable or disable viewable node text on unhighlighted nodes (rivercare project addition)
+        */
     minEdgeWidth : 1,
     maxEdgeWidth : 50,
     textDisplayThreshold: 9,
