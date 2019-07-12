@@ -1,0 +1,11 @@
+{
+	"name": "my-static-site",
+	"version": "1.0.0",
+	"description": "lets just see if this works first",
+	"scripts": {
+		"start": "harp server --port $PORT"
+	},
+	"dependencies": {
+		"harp": "*"
+	}
+}
