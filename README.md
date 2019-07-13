@@ -25,6 +25,8 @@ http://www.arcgis.com/apps/MapJournal/index.html?appid=df8a0221a00d44c8891813cc1
 2. Put it in the visualisations folder of the gexf-js directory and push to github
 3. You can view the deployed Gexf files by pointing your browser to index.html#visualisations/Filename.gexf
     ie. http://rivercare.herokuapp.com/index.html#visualisations/blueNoGov.gexf
+   Also possible is:
+   https://hcollins345.github.io/rivercare/index.html#visualisations/FILENAME.gexf
 
 ### For testing
 
