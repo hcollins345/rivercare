@@ -2,6 +2,7 @@
 
 **Credit**: GEXF viewer forked from raphv/gexf-js under MIT license
 
+
 ## Current Visualisations
 http://rivercare.herokuapp.com/index.html#visualisations/blueNoGov.gexf
 http://rivercare.herokuapp.com/index.html#visualisations/blueGov.gexf
@@ -11,6 +12,10 @@ http://rivercare.herokuapp.com/index.html#visualisations/blueGroupsNoGov.gexf
 http://rivercare.herokuapp.com/index.html#visualisations/blueGroupsGov.gexf
 http://rivercare.herokuapp.com/index.html#visualisations/greenGroupsNoGov.gexf
 http://rivercare.herokuapp.com/index.html#visualisations/greenGroupsGov.gexf
+
+### Sample use of visualisations
+
+http://www.arcgis.com/apps/MapJournal/index.html?appid=df8a0221a00d44c8891813cc1ad7c4fc
 
 ## How to use ?
 
