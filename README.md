@@ -1,8 +1,31 @@
-# JavaScript GEXF Viewer for Gephi #
+# Rivercare Visualisations using JavaScript GEXF Viewer for Gephi #
 
-#### Released under MIT License ###
+**Credit**: GEXF viewer forked from raphv/gexf-js under MIT license
 
-### Known Issues
+## Current Visualisations
+http://rivercare.herokuapp.com/index.html#visualisations/blueNoGov.gexf
+http://rivercare.herokuapp.com/index.html#visualisations/blueGov.gexf
+http://rivercare.herokuapp.com/index.html#visualisations/greenNoGov.gexf
+http://rivercare.herokuapp.com/index.html#visualisations/greenGov.gexf
+http://rivercare.herokuapp.com/index.html#visualisations/blueGroupsNoGov.gexf
+http://rivercare.herokuapp.com/index.html#visualisations/blueGroupsGov.gexf
+http://rivercare.herokuapp.com/index.html#visualisations/greenGroupsNoGov.gexf
+http://rivercare.herokuapp.com/index.html#visualisations/greenGroupsGov.gexf
+
+## How to use ?
+
+### For deploying graphs
+
+1. Export your graph from Gephi as a GEXF file
+2. Put it in the visualisations folder of the gexf-js directory and push to github
+3. You can view the deployed Gexf files by pointing your browser to index.html#visualisations/Filename.gexf
+    ie. http://rivercare.herokuapp.com/index.html#visualisations/blueNoGov.gexf
+
+### For testing
+
+See *Known Issues with GEXF viewer* below.
+
+## Known Issues with GEXF viewer
 
 **The issue below is the source of 90% of support emails I receive, please read carefully**
 
@@ -17,62 +40,6 @@ This is a known security limitation, and there are 2 known workarounds:
 
 There used to a third workaround (The --allow-file-access-from-files flag), but it is no longer available on newest Chrome versions since 2014.
 
-### Newest features
-
-Hybrid directed/undirected graphs are now supported, and arrows can be shown.
-
-Gexf-JS now speaks 9 languages: Dutch, English, French, Finnish, German, Greek, Italian, Spanish, and Turkish!
-
-### Contributors
-
-#### Raphaël Velt (main developer, French and English versions)
-
-* http://raphaelve.lt/
-* Twitter: [@raphv](http://twitter.com/raphv)
-
-#### Vicenzo Cosenza (Italian translation)
-
-* http://www.vincos.it/
-* Twitter: [@vincos](http://twitter.com/vincos)
-
-#### Eduardo Ramos Ibáñez (Spanish translation)
-
-* https://github.com/eduramiba
-* Twitter: [@eduramiba](http://twitter.com/eduramiba)
-
-#### Jaakko Salonen (Finnish translation and hyperlink replacement)
-
-* https://github.com/jsalonen
-* Twitter: [@jsalonen](http://twitter.com/jsalonen)
-
-#### Zeynep Akata (Turkish translation)
-
-#### Σωτήρης Φραγκίσκος (Greek translation)
-
-#### Martin Eckert (German translation)
-
-#### Tobias Bora (Arrows and hybrid graphs)
-
-* https://github.com/tobiasBora
-
-#### Jan de Mooij (Dutch translation and touch-screen compatibility)
-
-* https://github.com/Ilsontfous
-
-#### Bruna Delzari (Portuguese translation)
-
-#### Adil Aliyev (Azerbaijani translation)
-* https://github.com/adilek
-* Twitter: [@adilaliyev](http://twitter.com/adilaliyev)
-
-### How to use ?
-
-1. Export your graph from Gephi as a GEXF file
-2. Put it in the gexf-js directory
-3. Modify config.js to point to your GEXF File and tune the interface.
-
-You can view more Gexf files by pointing your browser to index.html#Filename.gexf
-
 ### Compatibility
 
 Gexf-JS uses the canvas element, which might cause compatibility issues with older browsers.
@@ -80,25 +47,3 @@ Gexf-JS uses the canvas element, which might cause compatibility issues with old
 It has been tested with the latest Chrome, Firefox and Internet Explorer versions.
 
 It doesn't work with Internet Explorer 8 or older.
-
-### Contribute as a translator
-
-Gexf JS Viewer is now available in English, French and Italian
-
-If you want to translate the interface in your language (and share this translation with the community), please translate the following sentences, send them to me and I'll upload them to github.
-
-Strings to translate:
-
-1. Search nodes
-2. Attributes
-3. Nodes
-4. Inbound Links from
-5. Outbound Links to
-6. Undirected links with
-7. Activate lens mode
-8. Deactivate lens mode
-9. Show edges
-1. Hide edges
-1. Zoom In
-1. Zoom Out
-1. Your browser cannot properly display this page. We recommend you use the latest Firefox or Chrome version
