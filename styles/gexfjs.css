@@ -109,7 +109,7 @@ h1 a {
     background-position: -24px 0;
 }
 
-#lensButton, #edgesButton {
+#lensButton, #edgesButton, #govButton{
     display: block; width: 36px; height: 36px; background:url(../img/loupe-edges.png); margin: 0 auto;
 }
 
@@ -143,6 +143,22 @@ h1 a {
 
 #edgesButton.off:hover {
     background-position: -108px -36px;
+}
+
+#govButton {
+    background-position: -72px -72px;
+}
+
+#govButton:hover {
+    background-position: -36px -72px;
+}
+
+#govButton.off {
+    background-position: 0 -72px;
+}
+
+#govButton.off:hover {
+    background-position: -108px -72px;
 }
 
 #zoomSlider {

@@ -8,18 +8,22 @@ GexfJS.setParams({
             GEXF files can now be replaced by pre-processed JSON files (use gexf2json.py)
             for faster load time
         */
-	showEdges : true,
+    showEdges : true,
         /*
             Default state of the "show edges" button. Set to null to disable button.
         */
     useLens : false,
         /*
-            Default state of the "use lens" button. Set to null to disable button.
+            Default state of the "use lens" button. set to null to disable button.
         */
     zoomLevel : 0,
         /*
             Default zoom level. At zoom = 0, the graph should fill a 800x700px zone
          */
+    showGov : true, 
+        /*
+            Default state of government node highlighting. Set to null to disable button. (RiverCare addition)
+        */
     curvedEdges : true,
         /*
             False for curved edges, true for straight edges

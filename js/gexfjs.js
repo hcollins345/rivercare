@@ -15,6 +15,28 @@
  * */
 
 (function() {
+    var images = {
+        coordinators : new Image(3000, 3000),
+        nature : new Image(3000, 3000),
+        flood : new Image(3000, 3000),
+        agriculture : new Image(3000, 3000),
+        interest : new Image(3000, 3000),
+        research : new Image(3000, 3000)
+    }
+
+    images.coordinators.src = "img/patterns/crd.png";
+    images.nature.src = "img/patterns/nat_new.png";
+    images.flood.src = "img/patterns/fld.png";
+    images.agriculture.src = "img/patterns/crd.png";
+    images.interest.src = "img/patterns/int_new.png";
+    images.research.src = "img/patterns/res_new.png";
+
+    var crdCTX = document.createElement('canvas').getContext("2d");
+    var natCTX = document.createElement('canvas').getContext("2d");
+    var fldCTX = document.createElement('canvas').getContext("2d");
+    var agrCTX = document.createElement('canvas').getContext("2d");
+    var intCTX = document.createElement('canvas').getContext("2d");
+    var resCTX = document.createElement('canvas').getContext("2d");
 
     var GexfJS = {
         lensRadius: 200,
@@ -97,6 +119,8 @@
                 "lensOff": "Deactivate lens mode",
                 "edgeOn": "Show edges",
                 "edgeOff": "Hide edges",
+                "highlightGovOn": "Highlight government actors",
+                "highlightGovOff": "Unhighlight government actors",
                 "zoomIn": "Zoom In",
                 "zoomOut": "Zoom Out",
             },
@@ -1002,17 +1026,55 @@
             _dnc.real_coords = ((GexfJS.params.useLens && GexfJS.mousePosition) ? calcCoord(GexfJS.mousePosition.x, GexfJS.mousePosition.y, _dnc.actual_coords) : _dnc.actual_coords);
         }
 
+        var count = 1;
         for (var i in GexfJS.graph.nodeList) {
             var _d = GexfJS.graph.nodeList[i];
             if (_d.visible && _d.withinFrame) {
                 if (i != _centralNode) {
                     _d.real_coords = ((GexfJS.params.useLens && GexfJS.mousePosition) ? calcCoord(GexfJS.mousePosition.x, GexfJS.mousePosition.y, _d.actual_coords) : _d.actual_coords);
                     _d.isTag = (_tagsMisEnValeur.indexOf(parseInt(i)) != -1);
-                    GexfJS.ctxGraphe.beginPath();
-                    GexfJS.ctxGraphe.fillStyle = ((_tagsMisEnValeur.length && !_d.isTag) ? _d.G : _d.B);
-                    GexfJS.ctxGraphe.arc(_d.real_coords.x, _d.real_coords.y, _d.real_coords.r, 0, Math.PI * 2, true);
-                    GexfJS.ctxGraphe.closePath();
-                    GexfJS.ctxGraphe.fill();
+                    
+                    var flag = 0;
+                    var pat = _d.B;
+                    for (var i = 0, l = _d.a.length; i < l; i++) {
+                        var attr = _d.a[i];
+                        var _li = $("<li>");
+                        var attrkey = GexfJS.graph.attributes[attr[0]];
+                        $("<b>").text(strLang(attrkey) + ": ").appendTo(_li);
+                        if (attrkey == 'group') {
+                            var group = attr[1];
+                        }
+                        if (GexfJS.params.showGov && attr[1] == 'gov'){ 
+                            flag = 1;
+                            if (group == 'Coordinators') {
+                                pat = crdCTX.createPattern(images.coordinators, "repeat");
+                            } else if (group == 'Nature') {
+                                pat = natCTX.createPattern(images.nature, "repeat");
+                            } else if (group == 'Flood protection') {
+                                pat = fldCTX.createPattern(images.flood, "repeat");
+                            } else if (group == 'Agriculture') {
+                                pat = agrCTX.createPattern(images.agriculture, "repeat");
+                            } else if (group == 'Interest group') {
+                                pat = intCTX.createPattern(images.interest, "repeat");
+                            } else if (group == 'Research') {
+                                pat = resCTX.createPattern(images.research, "repeat");
+                            }
+
+                            // _d.B = pat;
+                            GexfJS.ctxGraphe.fillStyle = ((_tagsMisEnValeur.length && !_d.isTag) ? _d.G : pat);
+                            GexfJS.ctxGraphe.beginPath();
+                            GexfJS.ctxGraphe.arc(_d.real_coords.x, _d.real_coords.y, _d.real_coords.r, 0, Math.PI * 2, true);
+                            GexfJS.ctxGraphe.closePath();
+                            GexfJS.ctxGraphe.fill();
+                        }
+                    }
+                    if (flag == 0) {
+                        GexfJS.ctxGraphe.fillStyle = ((_tagsMisEnValeur.length && !_d.isTag) ? _d.G : _d.B);
+                        GexfJS.ctxGraphe.beginPath();
+                        GexfJS.ctxGraphe.arc(_d.real_coords.x, _d.real_coords.y, _d.real_coords.r, 0, Math.PI * 2, true);
+                        GexfJS.ctxGraphe.closePath();
+                        GexfJS.ctxGraphe.fill();
+                    }
                 }
             }
         }
@@ -1131,10 +1193,13 @@
 
     function updateButtonStates() {
         $("#lensButton").attr("class", GexfJS.params.useLens ? "" : "off")
-            .attr("title", strLang(GexfJS.params.showEdges ? "lensOff" : "lensOn"));
+            .attr("title", strLang(GexfJS.params.useLens ? "lensOff" : "lensOn"));
 
         $("#edgesButton").attr("class", GexfJS.params.showEdges ? "" : "off")
             .attr("title", strLang(GexfJS.params.showEdges ? "edgeOff" : "edgeOn"));
+
+        $("#govButton").attr("class", GexfJS.params.showGov ? "" : "off")
+            .attr("title", strLang(GexfJS.params.showGov ? "highlightGovOff" : "highlightGovOn"));
     }
 
     GexfJS.setParams = function setParams(paramlist) {
@@ -1271,6 +1336,9 @@
         if (GexfJS.params.showEdges === null) {
             $("#edgesButton").hide();
         }
+        if (GexfJS.params.showGov === null) {
+            $("#govButton").hide();
+        }
         $("#lensButton").click(function () {
             GexfJS.params.useLens = !GexfJS.params.useLens;
             updateButtonStates();
@@ -1278,6 +1346,11 @@
         });
         $("#edgesButton").click(function () {
             GexfJS.params.showEdges = !GexfJS.params.showEdges;
+            updateButtonStates();
+            return false;
+        });
+        $("#govButton").click(function () {
+            GexfJS.params.showGov = !GexfJS.params.showGov;
             updateButtonStates();
             return false;
         });
