@@ -20,7 +20,7 @@ GexfJS.setParams({
         /*
             Default zoom level. At zoom = 0, the graph should fill a 800x700px zone
          */
-    showGov : true, 
+    showGov : false, 
         /*
             Default state of government node highlighting. Set to null to disable button. (RiverCare addition)
         */
